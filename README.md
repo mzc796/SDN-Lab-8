@@ -25,10 +25,10 @@ Your task is to experiment with flow rules, understand how topology discovery be
    ```./build_onos_dockers.sh```
 4. Login the ONOS UI
     click Firefox, access http://172.17.0.5:8181/onos/ui, http://172.17.0.6:8181/onos/ui, http://172.17.0.7:8181/onos/ui
-```
+   ```
     user: onos
     password: rocks
-```
+   ```
 5. After the ONOS UI is loaded, there should be three ONOS listed on each of the UIs as they build a cluster.
 6. On http://172.17.0.2:8181/onos/ui, click the menu on the top left, go to Application, search openflow, choose OpenFlow Provider Suite, click the triangle on the top right to activate this application, confirm-> Okay.
 7. Still on the Application list, search fwd, choose Reactive Forwarding, click the triangle on the top right to activate this application, confirm-> Okay.
@@ -96,5 +96,7 @@ Your task is to experiment with flow rules, understand how topology discovery be
    (1) What assumptions about topology discovery does the attack rely on?
 
    (2) How might an attacker modify the approach to achieve precise link manipulation on ONOS?
+   
+5. After precise link manipulation, does the `h1 ping h2` still work? Why?
 
 

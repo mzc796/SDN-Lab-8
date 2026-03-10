@@ -24,7 +24,7 @@ Your task is to experiment with flow rules, understand how topology discovery be
    
    ```./build_onos_dockers.sh```
 4. Login the ONOS UI
-    click Firefox, access http://172.17.0.5:8181/onos/ui, http://172.17.0.6:8181/onos/ui, http://172.17.0.7:8181/onos/ui
+    click Firefox, access http://172.17.0.2:8181/onos/ui
    ```
     user: onos
     password: rocks

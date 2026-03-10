@@ -29,6 +29,7 @@ Deceptive Topology:
                 2                              2
    Host_1 --3 Switch_A 1---2 Switch_C 1---1 Switch_D
    ```
+
 1. Utilize `pois_link.sh` in the way of what we did with OpenDaylight for SDN-Lab-7, and observe whether the ONOS controller discovers the deceptive topology.
 
 2. Investigate what happens during the attempt by:
@@ -39,7 +40,7 @@ Deceptive Topology:
 
 3. Analyze the result: Does the topology manipulation succeed?
 
-If not, what prevents the attack from working as expected?
+   If not, what prevents the attack from working as expected?
 
 4. Based on your observations, explain:
 

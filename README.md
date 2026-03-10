@@ -1,4 +1,4 @@
-# SDN-Lab-7plus
+# SDN-Lab-8
 In the previous lab, we manipulated the topology view of the OpenDaylight controller using precise link manipulation. In this lab, we will explore whether a similar approach works on the ONOS controller.
 
 Your task is to experiment with flow rules, understand how topology discovery behaves under manipulation, and how to achieve the attack goal even in different settings.

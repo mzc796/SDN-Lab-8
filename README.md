@@ -22,7 +22,7 @@ Your task is to experiment with flow rules, understand how topology discovery be
    ```
 3. Install and run onos dockers. The onos should have IP Addresses 172.17.0.2.
    
-   ```./build_onos_dockers.sh```
+   ```./build_onos.sh```
 4. Login the ONOS UI
     click Firefox, access http://172.17.0.2:8181/onos/ui
    ```
@@ -79,7 +79,7 @@ Your task is to experiment with flow rules, understand how topology discovery be
    Host_1 --3 Switch_A 1---2 Switch_C 1---1 Switch_D
    ```
 
-1. Utilize `pois_link.sh` in the way of what we did with OpenDaylight for SDN-Lab-7, and observe whether the ONOS controller discovers the deceptive topology.
+1. Utilize `pois_flow.sh` in the way of what we did with OpenDaylight for SDN-Lab-7, and observe whether the ONOS controller discovers the deceptive topology.
 
 2. Investigate what happens during the attempt by:
 

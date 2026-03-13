@@ -10,7 +10,7 @@ Your task is to experiment with flow rules, understand how topology discovery be
 
 [Manipulating OpenFlow Link Discovery Packet Forwarding for Topology Poisoning (CCS'24)](https://dl.acm.org/doi/abs/10.1145/3658644.3690345)
 
-## Settingup SDN testbed with ONOS and mininet
+## Setting up SDN testbed with ONOS and mininet
 
 1. Prepare the system
    

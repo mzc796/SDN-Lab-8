@@ -99,10 +99,10 @@ Your task is to experiment with flow rules, understand how topology discovery be
    
 5. After precise link manipulation, does the `h1 ping h2` still work? Why?
 
-Utilities:
+6. Utilities:
 
-(1) Run ONOS container: `run_onos.sh`
+   (1) Run ONOS container: `run_onos.sh`
 
-(2) Stop ONOS container: `stop_onos.sh`
+   (2) Stop ONOS container: `stop_onos.sh`
 
-(3) Remove ONOS container: `rm_onos.sh`
+   (3) Remove ONOS container: `rm_onos.sh`

@@ -30,7 +30,7 @@ Your task is to experiment with flow rules, understand how topology discovery be
     password: rocks
    ```
 5. After the ONOS UI is loaded, there should be three ONOS listed on each of the UIs as they build a cluster.
-6. On http://172.17.0.2:8181/onos/ui, click the menu on the top left, go to Application, search openflow, choose OpenFlow Provider Suite, click the triangle on the top right to activate this application, confirm-> Okay.
+6. On http://172.17.0.2:8181/onos/ui, click the menu on the top left, go to Application, search `openflow`, choose `OpenFlow Provider Suite`, click the triangle on the top right to activate this application, `confirm-> Okay`.
 7. Still on the Application list, search fwd, choose Reactive Forwarding, click the triangle on the top right to activate this application, confirm-> Okay.
 
 8. Run Mininet to connect with ONOS.
